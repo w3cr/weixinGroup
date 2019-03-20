@@ -1,0 +1,6 @@
+﻿/**
+*作者：onehacking
+*时间：2019-03-20
+*描述：实现类似于微信群头像的九宫格效果，根据图片数量弹性自适应
+**/
+.ag ul{padding:0;margin:0;list-style-type:none;width:240px;height:240px;background-color:#eee}.ag li{background:url("../img/1.jpg");background-size:100%;outline:1px solid #fff}.ag li:only-child{height:100%}.ag li:first-child:nth-last-child(2),.ag li:first-child:nth-last-child(2)+li{width:50%;height:50%}.ag li:first-child:nth-last-child(2)+li{margin-left:auto}.ag li:first-child:nth-last-child(3),.ag li:first-child:nth-last-child(3)~li{width:50%;height:50%}.ag li:first-child:nth-last-child(3){margin:auto}.ag li:first-child:nth-last-child(3)~li{float:left}.ag li:first-child:nth-last-child(4),.ag li:first-child:nth-last-child(4)~li{width:50%;height:50%;float:left}.ag li:first-child:nth-last-child(5),.ag li:first-child:nth-last-child(6){width:160px;height:160px;float:left}.ag li:first-child:nth-last-child(5)~li,.ag li:first-child:nth-last-child(6)~li{width:80px;height:80px;float:left}.ag li:first-child:nth-last-child(7),.ag li:first-child:nth-last-child(7)~li,.ag li:first-child:nth-last-child(8),.ag li:first-child:nth-last-child(8)~li,.ag li:first-child:nth-last-child(9),.ag li:first-child:nth-last-child(9)~li{width:80px;height:80px;float:left}.ag li:first-child:nth-last-child(7){float:none;margin:auto}.ag li:first-child:nth-last-child(8){margin-left:40px}

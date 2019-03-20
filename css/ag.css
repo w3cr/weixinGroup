@@ -1,4 +1,4 @@
-/**
+﻿/**
 *作者：onehacking
 *时间：2019-03-20
 *描述：实现类似于微信群头像的九宫格效果，根据图片数量弹性自适应
@@ -14,7 +14,7 @@
 }
 
 .ag li {
-	background: url(img/1.jpg);
+	background: url(../img/1.jpg);
 	background-size: 100%;
 	outline: 1px solid #fff;
 }
